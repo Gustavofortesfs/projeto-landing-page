@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px
+    
+    
+
+}
+#menuinformacional{
+    background-color:#EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+
+
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+    
+}
+
+#titulocarrosel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+margin-left: 50px;    
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: scale(150%);
+    transition-duration: 0.5s;
+}
+
+
+.video:hover{
+    transform: scale(101%);
+    transition-duration: 0.5s;
+    
+}
+
+#formulario{
+    text-align: center;
+}
+
+#textoformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width:300px ;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #3e84a1;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0b2e3d52;
+    transition-duration: 0.5s;
+}
